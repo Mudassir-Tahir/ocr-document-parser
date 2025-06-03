@@ -1,0 +1,53 @@
+{
+    "document_type": "invoice",
+    "metadata": {
+        "source_file": "temp_upload.pdf",
+        "extracted_on": "2025-05-30 23:39:15"
+    },
+    "fields": {
+        "document_type": "invoice",
+        "header": {
+            "invoice_number": "acquitt",
+            "invoice_date": "09/12/2024",
+            "delivery_date": "N/A",
+            "due_date": "N/A",
+            "client_name": "support-ma@ovh.com",
+            "client_ice_or_if": "000215535000070",
+            "provider_name": "par voie",
+            "provider_ice_or_if": "000215535000070",
+            "sub_total_ht": "N/A",
+            "vat_amount": "N/A",
+            "vat_percent": "N/A",
+            "total_ttc": "1 621.44",
+            "discount": "N/A",
+            "delivery_fee": "N/A",
+            "other_charges": "N/A"
+        }
+    },
+    "transactions": [
+        {
+            "label": "unitaire OS",
+            "quantity": "Linux",
+            "unit_price": "Monthly",
+            "item_total_ht": "fees",
+            "item_discount": "N/A",
+            "tax_percentage": "N/A"
+        },
+        {
+            "label": "Du",
+            "quantity": "21-12-2024",
+            "unit_price": "au",
+            "item_total_ht": "20-03-2025",
+            "item_discount": "vps-2fea5014.vps.ovh.ca-linux",
+            "tax_percentage": "1"
+        },
+        {
+            "label": "Du",
+            "quantity": "21-12-2024",
+            "unit_price": "au",
+            "item_total_ht": "20-03-2025",
+            "item_discount": "vps-2fea5014.vps.ovh.ca-linux",
+            "tax_percentage": "1"
+        }
+    ]
+}

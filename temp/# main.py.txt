@@ -1,0 +1,73 @@
+# main.py
+
+from ocr_engine import convert_pdf_to_images, perform_ocr_on_images, perform_ocr_on_image
+from doc_classifier import identify_document_type
+from parser_invoice import parse_invoice
+from parser_receipt import parse_receipt
+import sys
+import json
+import datetime
+import os
+
+
+def main():
+    # 1. Input file path
+    file_path = input("Enter the path to the PDF or image file: ").strip()
+
+    # 2. Validate input
+    if not os.path.exists(file_path):
+        print("Error: File does not exist.")
+        return
+
+    try:
+        # 3. Determine file type
+        if file_path.lower().endswith(".pdf"):
+            print("Processing PDF...")
+            images = convert_pdf_to_images(file_path)
+            text = perform_ocr_on_images(images)
+        else:
+            print("Processing Image...")
+            text = perform_ocr_on_image(file_path)
+
+        # 4. Output raw text (for now)
+        document_type = identify_document_type(text)
+        print("\n=== Document Type: {} ===".format(document_type.upper()))
+        if document_type == "invoice":
+            extracted_data = parse_invoice(text)
+            print("\n--- Parsed Invoice Fields ---")
+            for k, v in extracted_data.items():
+                if k != "transactions":
+                    print(f"{k}: {v}")
+                else:
+                    print("\nTransactions:")
+                    for idx, tx in enumerate(v, 1):
+                        print(f"  Item {idx}:")
+                        for field, value in tx.items():
+                            print(f"    {field}: {value}")
+
+        # print("\n--- Extracted OCR Text ---\n")
+        # print(text)
+
+            # Save to JSON
+            output_dir = "output"
+            os.makedirs(output_dir, exist_ok=True)
+
+            file_name = f"invoice_output_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
+            output_path = os.path.join(output_dir, file_name)
+
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+
+            print(f"\n✅ Invoice data saved to: {output_path}")
+
+    except Exception as e:
+        print("An error occurred during OCR processing:", str(e))
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+

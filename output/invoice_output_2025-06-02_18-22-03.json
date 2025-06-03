@@ -1,0 +1,28 @@
+{
+    "document_type": "invoice",
+    "metadata": {
+        "source_file": "temp_upload.pdf",
+        "extracted_on": "2025-06-02 18:22:03"
+    },
+    "fields": {
+        "document_type": "invoice",
+        "header": {
+            "invoice_number": "HB",
+            "invoice_date": "05/09/2023",
+            "delivery_date": "N/A",
+            "due_date": "N/A",
+            "client_name": "N/A",
+            "client_ice_or_if": "001648789000071",
+            "provider_name": "N/A",
+            "provider_ice_or_if": "001648789000071",
+            "sub_total_ht": "N/A",
+            "vat_amount": "N/A",
+            "vat_percent": "N/A",
+            "total_ttc": "N/A",
+            "discount": "N/A",
+            "delivery_fee": "N/A",
+            "other_charges": "N/A"
+        }
+    },
+    "transactions": []
+}

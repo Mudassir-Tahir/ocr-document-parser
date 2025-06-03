@@ -1,0 +1,20 @@
+{
+    "document_type": "bank_statement",
+    "metadata": {
+        "source_file": "temp_upload.pdf",
+        "extracted_on": "2025-06-02 18:59:57"
+    },
+    "fields": {
+        "document_type": "bank_statement",
+        "header": {
+            "statement_date": "N/A",
+            "period_covered": "N/A",
+            "opening_balance": "N/A",
+            "closing_balance": "N/A",
+            "currency": "N/A",
+            "account_number": "N/A",
+            "account_holder": "N/A"
+        }
+    },
+    "transactions": []
+}

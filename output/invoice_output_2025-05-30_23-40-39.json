@@ -1,0 +1,53 @@
+{
+    "document_type": "invoice",
+    "metadata": {
+        "source_file": "ADM 1.pdf",
+        "extracted_on": "2025-05-30 23:40:39"
+    },
+    "fields": {
+        "document_type": "invoice",
+        "header": {
+            "invoice_number": "FT25034690",
+            "invoice_date": "17/01/2024",
+            "delivery_date": "N/A",
+            "due_date": "N/A",
+            "client_name": "Client",
+            "client_ice_or_if": "001531664000052",
+            "provider_name": "N/A",
+            "provider_ice_or_if": "001531664000052",
+            "sub_total_ht": "N/A",
+            "vat_amount": "N/A",
+            "vat_percent": "N/A",
+            "total_ttc": "",
+            "discount": "N/A",
+            "delivery_fee": "N/A",
+            "other_charges": "N/A"
+        }
+    },
+    "transactions": [
+        {
+            "label": "Recharge",
+            "quantity": "PASS",
+            "unit_price": "N°",
+            "item_total_ht": ":",
+            "item_discount": "15280340579",
+            "tax_percentage": "N/A"
+        },
+        {
+            "label": "Nouveau",
+            "quantity": "Solde",
+            "unit_price": ":",
+            "item_total_ht": "1167",
+            "item_discount": "1",
+            "tax_percentage": "000,00 Fin"
+        },
+        {
+            "label": "Nouveau",
+            "quantity": "Solde",
+            "unit_price": ":",
+            "item_total_ht": "1167",
+            "item_discount": "1",
+            "tax_percentage": "000,00 Fin"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "label": "MNTSOFO01",
+        "quantity": "=|",
+        "unit_price": "MAINTENANCE",
+        "item_total_ht": "SOFT.",
+        "item_discount": "TROISIEME",
+        "tax_percentage": "TRIMESTRE"
+    },
+    {
+        "label": "PERIODE",
+        "quantity": "DU",
+        "unit_price": "01/07/2023",
+        "item_total_ht": "AU",
+        "item_discount": "30/09/2023",
+        "tax_percentage": "N/A"
+    },
+    {
+        "label": "Arrétée",
+        "quantity": "la",
+        "unit_price": "présente",
+        "item_total_ht": "facture",
+        "item_discount": "4",
+        "tax_percentage": "la"
+    },
+    {
+        "label": "DIX",
+        "quantity": "MILLE",
+        "unit_price": "HUIT",
+        "item_total_ht": "CENTS",
+        "item_discount": "DIRHAMS",
+        "tax_percentage": "N/A"
+    },
+    {
+        "label": "Reste",
+        "quantity": "Apayer:",
+        "unit_price": "10800,00",
+        "item_total_ht": "N/A",
+        "item_discount": "N/A",
+        "tax_percentage": "N/A"
+    },
+    {
+        "label": "SARL",
+        "quantity": "au",
+        "unit_price": "capital",
+        "item_total_ht": "de",
+        "item_discount": "1",
+        "tax_percentage": "500"
+    },
+    {
+        "label": "I.C.E.",
+        "quantity": "001531664000052",
+        "unit_price": "-",
+        "item_total_ht": "52,",
+        "item_discount": "Bd",
+        "tax_percentage": "Abdelmoumen,"
+    }
+]

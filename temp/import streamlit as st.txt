@@ -1,0 +1,88 @@
+import streamlit as st
+import json
+import os
+import datetime
+from ocr_engine import convert_pdf_to_images, perform_ocr_on_images, perform_ocr_on_image, POPPLER_PATH
+from doc_classifier import identify_document_type
+from parser_invoice import parse_invoice, parse_transactions_layout_aware
+from parser_receipt import parse_receipt
+from parser_bank import parse_bank_statement
+from utils import build_output_schema
+from logger import log_info, log_error
+from error_handler import catch_errors
+
+st.set_page_config(page_title="OCR Extraction Tool", layout="wide")
+st.title("📄 Smart OCR Document Parser")
+
+uploaded_file = st.file_uploader("Upload a PDF or Image", type=["pdf", "png", "jpg", "jpeg"])
+
+@catch_errors
+def process_ocr(file_path, display_name):
+    log_info(f"File uploaded: {display_name}")
+
+    # OCR text extraction
+    if file_path.endswith(".pdf"):
+        log_info(f"Processing PDF: {file_path}")
+        images = convert_pdf_to_images(file_path)
+        text = perform_ocr_on_images(images)
+    else:
+        log_info(f"Processing Image: {file_path}")
+        text = perform_ocr_on_image(file_path)
+
+    st.subheader("🔍 Detected Text")
+    st.text_area("OCR Output", text, height=300)
+
+    document_type = identify_document_type(text)
+    st.success(f"📌 Document Type: {document_type.upper()}")
+    log_info(f"Detected document type: {document_type}")
+
+    # Parse accordingly
+    extracted_data = {}
+    if document_type == "invoice":
+        extracted_data = parse_invoice(text)
+        transactions = parse_transactions_layout_aware(file_path)
+        extracted_data["transactions"] = transactions if transactions else []
+
+    elif document_type == "receipt":
+        extracted_data = parse_receipt(text)
+
+    elif document_type == "bank_statement":
+        extracted_data = parse_bank_statement(text)
+
+    else:
+        st.warning("⚠️ Document type unrecognized. Displaying raw OCR text only.")
+
+    # Build output schema and show
+    output = build_output_schema(document_type, extracted_data.get("header", extracted_data), extracted_data.get("transactions", []))
+
+    st.subheader("📤 Extracted JSON")
+    st.write("📋 Extracted Header Fields:")
+    st.write(extracted_data.get("header", extracted_data))
+
+    st.write("🧾 Extracted Transactions:")
+    st.write(extracted_data.get("transactions", []))
+
+    st.json(output)
+
+    # Save JSON
+    output_file = f"output_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=4)
+
+    # Show download button regardless
+    with open(output_file, "rb") as f:
+        st.download_button("💾 Download JSON", f, file_name=output_file)
+
+if uploaded_file is not None:
+    try:
+        ext = uploaded_file.name.split('.')[-1]
+        temp_file_path = f"temp_upload.{ext}"
+        with open(temp_file_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+
+        st.info(f"File received: {uploaded_file.name}")
+        process_ocr(temp_file_path, uploaded_file.name)
+
+    except Exception as e:
+        log_error(f"[FR06] Streamlit UI exception: {str(e)}")
+        st.error(f"An error occurred: {str(e)}")

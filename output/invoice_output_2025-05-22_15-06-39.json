@@ -1,0 +1,141 @@
+{
+    "document_type": "invoice",
+    "metadata": {
+        "source_file": "Abnsoft.pdf",
+        "extracted_on": "2025-05-22 15:06:39"
+    },
+    "fields": {
+        "document_type": "invoice",
+        "header": {
+            "invoice_number": "N/A",
+            "invoice_date": "N/A",
+            "delivery_date": "N/A",
+            "due_date": "N/A",
+            "client_name": "N/A",
+            "client_ice_or_if": "N/A",
+            "provider_name": "N/A",
+            "provider_ice_or_if": "N/A",
+            "sub_total_ht": "N/A",
+            "vat_amount": "N/A",
+            "vat_percent": "N/A",
+            "total_ttc": "N/A",
+            "discount": "N/A",
+            "delivery_fee": "N/A",
+            "other_charges": "N/A"
+        }
+    },
+    "transactions": [
+        {
+            "label": "M",
+            "quantity": "N",
+            "unit_price": "T",
+            "item_total_ht": "S",
+            "item_discount": "O",
+            "tax_percentage": "F"
+        },
+        {
+            "label": "E",
+            "quantity": "X",
+            "unit_price": "E",
+            "item_total_ht": "R",
+            "item_discount": "C",
+            "tax_percentage": "I"
+        },
+        {
+            "label": "P",
+            "quantity": "E",
+            "unit_price": "R",
+            "item_total_ht": "I",
+            "item_discount": "O",
+            "tax_percentage": "D"
+        },
+        {
+            "label": "T",
+            "quantity": "V",
+            "unit_price": "A",
+            "item_total_ht": "M",
+            "item_discount": "o",
+            "tax_percentage": "n"
+        },
+        {
+            "label": "2",
+            "quantity": "0",
+            "unit_price": "%",
+            "item_total_ht": "9",
+            "item_discount": "0",
+            "tax_percentage": "0"
+        },
+        {
+            "label": "T",
+            "quantity": "o",
+            "unit_price": "t",
+            "item_total_ht": "a",
+            "item_discount": "l",
+            "tax_percentage": "T"
+        },
+        {
+            "label": "A",
+            "quantity": "r",
+            "unit_price": "r",
+            "item_total_ht": "é",
+            "item_discount": "t",
+            "tax_percentage": "é"
+        },
+        {
+            "label": "D",
+            "quantity": "I",
+            "unit_price": "X",
+            "item_total_ht": "M",
+            "item_discount": "I",
+            "tax_percentage": "L"
+        },
+        {
+            "label": "R",
+            "quantity": "e",
+            "unit_price": "s",
+            "item_total_ht": "t",
+            "item_discount": "e",
+            "tax_percentage": "a"
+        },
+        {
+            "label": "1",
+            "quantity": "/",
+            "unit_price": "1",
+            "item_total_ht": "N/A",
+            "item_discount": "N/A",
+            "tax_percentage": "N/A"
+        },
+        {
+            "label": "S",
+            "quantity": "Y",
+            "unit_price": "N",
+            "item_total_ht": "E",
+            "item_discount": "R",
+            "tax_percentage": "G"
+        },
+        {
+            "label": "S",
+            "quantity": "A",
+            "unit_price": "R",
+            "item_total_ht": "L",
+            "item_discount": "a",
+            "tax_percentage": "u"
+        },
+        {
+            "label": "I",
+            "quantity": ".",
+            "unit_price": "C",
+            "item_total_ht": ".",
+            "item_discount": "E",
+            "tax_percentage": "."
+        },
+        {
+            "label": "-",
+            "quantity": "-",
+            "unit_price": "-",
+            "item_total_ht": "-",
+            "item_discount": "N/A",
+            "tax_percentage": "N/A"
+        }
+    ]
+}

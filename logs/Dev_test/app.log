@@ -1,0 +1,92 @@
+2025-05-20 14:58:03,860 - INFO - Processing PDF...
+2025-05-20 15:10:38,100 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 15:10:38,100 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 15:10:43,097 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 15:13:58,997 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:13:58,998 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:14:01,475 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:14:01,481 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:15:29,460 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:15:29,461 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:15:32,104 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:15:32,108 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:15:32,110 - INFO - Saved output to: output\invoice_output_2025-05-20_15-15-32.json
+2025-05-20 15:22:08,934 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:22:08,935 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:22:11,762 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:22:11,768 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:22:11,770 - INFO - Saved output to: output\invoice_output_2025-05-20_15-22-11.json
+2025-05-20 15:26:34,363 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:26:34,363 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:26:36,781 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:26:36,786 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 15:26:36,790 - INFO - Saved output to: output\invoice_output_2025-05-20_15-26-36.json
+2025-05-20 15:53:49,595 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pd
+2025-05-20 16:07:49,478 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 16:07:49,479 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 16:07:50,359 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 16:07:50,359 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 16:07:50,365 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_16-07-50.json
+2025-05-20 16:09:08,793 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invice.png
+2025-05-20 16:09:08,794 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invice.png
+2025-05-20 17:16:27,897 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:16:27,899 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:17:18,957 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:17:18,958 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:21:54,729 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:21:54,734 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:22:23,448 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample-invoice.pdf
+2025-05-20 17:22:23,449 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample-invoice.pdf
+2025-05-20 17:31:35,026 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample-invoice.pdf
+2025-05-20 17:31:35,027 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample-invoice.pdf
+2025-05-20 17:32:54,652 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:32:54,654 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.pdf
+2025-05-20 17:33:12,363 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.PDF
+2025-05-20 17:33:12,364 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\sample_invoice_test.PDF
+2025-05-20 17:34:44,160 - INFO - Received input file: file:///C:/Users/Mudassir/OneDrive/Documents/Einnovation/Project-01-OCR%20Project/OCR%20Project/test_files/sample-invoice.pdf
+2025-05-20 17:34:44,161 - ERROR - [FR06] File not found: file:///C:/Users/Mudassir/OneDrive/Documents/Einnovation/Project-01-OCR%20Project/OCR%20Project/test_files/sample-invoice.pdf
+2025-05-20 17:35:11,870 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 17:35:11,872 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 17:35:19,535 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 17:35:19,536 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.pdf
+2025-05-20 17:35:19,546 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_17-35-19.json
+2025-05-20 17:35:52,981 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 17:35:52,983 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 17:35:55,673 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 17:35:55,673 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 17:35:55,679 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_17-35-55.json
+2025-05-20 18:05:21,769 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 18:05:21,773 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 18:05:24,998 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 18:05:24,998 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample_invoice_test.pdf
+2025-05-20 18:05:25,004 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_18-05-25.json
+2025-05-20 18:11:40,098 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:11:40,099 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:11:43,144 - INFO - Identified document type: receipt for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:11:43,145 - INFO - Starting receipt parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:11:43,148 - INFO - ✅ Receipt data saved to: output\receipt_output_2025-05-20_18-11-43.json
+2025-05-20 18:12:24,341 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.png
+2025-05-20 18:12:24,342 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.png
+2025-05-20 18:12:24,900 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.png
+2025-05-20 18:12:24,901 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.png
+2025-05-20 18:12:24,906 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_18-12-24.json
+2025-05-20 18:13:55,048 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 18:13:55,049 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 18:13:55,683 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 18:13:55,685 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-invoice.png
+2025-05-20 18:13:55,700 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_18-13-55.json
+2025-05-20 18:22:06,473 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-bank-statement.pdf
+2025-05-20 18:22:06,478 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-bank-statement.pdf
+2025-05-20 18:22:08,846 - INFO - Identified document type: bank_statement for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-bank-statement.pdf
+2025-05-20 18:22:08,847 - INFO - Starting bank statement parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-bank-statement.pdf
+2025-05-20 18:22:08,850 - INFO - ✅ Bank_statement data saved to: output\bank_statement_output_2025-05-20_18-22-08.json
+2025-05-20 18:26:24,634 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\bank_doc.png
+2025-05-20 18:26:24,635 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\bank_doc.png
+2025-05-20 18:26:25,149 - INFO - Identified document type: bank_statement for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\bank_doc.png
+2025-05-20 18:26:25,149 - INFO - Starting bank statement parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\bank_doc.png
+2025-05-20 18:26:25,154 - INFO - ✅ Bank_statement data saved to: output\bank_statement_output_2025-05-20_18-26-25.json
+2025-05-20 18:36:49,898 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:36:49,903 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:36:53,383 - INFO - Identified document type: receipt for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:36:53,384 - INFO - Starting receipt parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\sample-receipt.pdf
+2025-05-20 18:36:53,387 - INFO - ✅ Receipt data saved to: output\receipt_output_2025-05-20_18-36-53.json

@@ -1,0 +1,343 @@
+2025-05-20 18:49:39,905 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 18:49:39,905 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 18:49:41,387 - INFO - Identified document type: receipt for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 18:49:41,387 - INFO - Starting receipt parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 18:49:41,390 - INFO - ✅ Receipt data saved to: output\receipt_output_2025-05-20_18-49-41.json
+2025-05-20 18:50:28,512 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 18:50:28,513 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 18:50:29,953 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 18:50:29,953 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 18:50:29,958 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_18-50-29.json
+2025-05-20 18:51:41,526 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.pdf
+2025-05-20 18:51:41,527 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.pdf
+2025-05-20 18:51:42,843 - INFO - Identified document type: bank_statement for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.pdf
+2025-05-20 18:51:42,843 - INFO - Starting bank statement parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.pdf
+2025-05-20 18:51:42,845 - INFO - ✅ Bank_statement data saved to: output\bank_statement_output_2025-05-20_18-51-42.json
+2025-05-20 18:56:05,683 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.png
+2025-05-20 18:56:05,685 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.png
+2025-05-20 18:56:06,094 - INFO - Identified document type: receipt for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.png
+2025-05-20 18:56:06,094 - INFO - Starting receipt parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.png
+2025-05-20 18:56:06,097 - INFO - ✅ Receipt data saved to: output\receipt_output_2025-05-20_18-56-06.json
+2025-05-20 18:56:45,207 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-20 18:56:45,208 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-20 18:56:45,604 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-20 18:56:45,604 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-20 18:56:45,609 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_18-56-45.json
+2025-05-20 18:57:53,234 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.png
+2025-05-20 18:57:53,234 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.png
+2025-05-20 18:57:53,574 - INFO - Identified document type: bank_statement for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.png
+2025-05-20 18:57:53,574 - INFO - Starting bank statement parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_bank_statement_test.png
+2025-05-20 18:57:53,576 - INFO - ✅ Bank_statement data saved to: output\bank_statement_output_2025-05-20_18-57-53.json
+2025-05-20 19:04:45,830 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 19:04:45,831 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 19:04:47,697 - INFO - Identified document type: receipt for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 19:04:47,697 - INFO - Starting receipt parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_receipt_test.pdf
+2025-05-20 19:04:47,702 - INFO - ✅ Receipt data saved to: output\receipt_output_2025-05-20_19-04-47.json
+2025-05-20 19:07:07,431 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 19:07:07,433 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 19:07:09,225 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 19:07:09,225 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-20 19:07:09,232 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-20_19-07-09.json
+2025-05-21 12:59:29,493 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 12:59:29,494 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 12:59:34,264 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 12:59:34,265 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 12:59:34,284 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_12-59-34.json
+2025-05-21 13:01:15,879 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:01:15,881 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:01:18,761 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:01:18,762 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:01:18,776 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_13-01-18.json
+2025-05-21 13:16:37,012 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 13:16:37,013 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 13:16:39,342 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 13:16:39,342 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 13:16:39,355 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_13-16-39.json
+2025-05-21 13:18:09,069 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:18:09,070 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:18:11,336 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:18:11,337 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Imprimerie la jeunesse.pdf
+2025-05-21 13:18:11,344 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_13-18-11.json
+2025-05-21 13:19:05,794 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\ALUMETAL CONCEPTE_24-04264-AC.pdf
+2025-05-21 13:19:05,795 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\ALUMETAL CONCEPTE_24-04264-AC.pdf
+2025-05-21 13:19:14,675 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\ALUMETAL CONCEPTE_24-04264-AC.pdf
+2025-05-21 13:19:14,675 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\ALUMETAL CONCEPTE_24-04264-AC.pdf
+2025-05-21 13:19:14,681 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_13-19-14.json
+2025-05-21 13:24:46,292 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.25.pdf
+2025-05-21 13:24:46,293 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.25.pdf
+2025-05-21 13:24:49,188 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.25.pdf
+2025-05-21 13:24:49,188 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.25.pdf
+2025-05-21 13:24:49,195 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_13-24-49.json
+2025-05-21 14:29:51,522 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 14:29:51,524 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 14:30:03,160 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 14:30:03,160 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 14:30:03,166 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_14-30-03.json
+2025-05-21 15:14:10,232 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 15:14:10,233 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 15:14:19,745 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 15:14:19,746 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\SOFIMED_F2401164.pdf
+2025-05-21 15:14:19,755 - ERROR - [FR06] Unexpected error in main: Unable to get page count. Is poppler installed and in PATH?
+2025-05-21 15:16:59,381 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:16:59,381 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:17:01,593 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:17:01,593 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:17:01,600 - ERROR - [FR06] Unexpected error in main: Unable to get page count. Is poppler installed and in PATH?
+2025-05-21 15:31:59,399 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:31:59,400 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:32:01,464 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:32:01,464 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:32:01,469 - ERROR - [FR06] Unexpected error in main: parse_transactions_layout_aware() got an unexpected keyword argument 'poppler_path'
+2025-05-21 15:35:23,198 - INFO - Received input file: "C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\.venv\Scripts\python.exe" "C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\main.py"
+2025-05-21 15:35:23,199 - ERROR - [FR06] File not found: "C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\.venv\Scripts\python.exe" "C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\main.py"
+2025-05-21 15:35:45,401 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:35:45,402 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:35:47,439 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:35:47,439 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:35:47,808 - ERROR - [FR06] Unexpected error in main: name 'pytesseract' is not defined
+2025-05-21 15:39:14,990 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:39:14,991 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:39:16,795 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:39:16,795 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:39:17,067 - ERROR - [FR06] Unexpected error in main: Missing pandas package
+2025-05-21 15:42:22,838 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:42:22,839 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:42:27,121 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:42:27,121 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:42:30,218 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-21 15:42:30,220 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_15-42-30.json
+2025-05-21 15:48:01,208 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.26.pdf
+2025-05-21 15:48:01,209 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.26.pdf
+2025-05-21 15:48:05,291 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.26.pdf
+2025-05-21 15:48:05,291 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.26.pdf
+2025-05-21 15:48:08,658 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\CamScanner 09-02-2024 11.26.pdf
+2025-05-21 15:48:08,660 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_15-48-08.json
+2025-05-21 15:52:45,534 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Comameto.pdf
+2025-05-21 15:52:45,535 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Comameto.pdf
+2025-05-21 15:52:48,204 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Comameto.pdf
+2025-05-21 15:52:48,204 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Comameto.pdf
+2025-05-21 15:52:50,388 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Comameto.pdf
+2025-05-21 15:52:50,390 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_15-52-50.json
+2025-05-21 15:59:54,312 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 15:59:54,313 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 16:00:13,104 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 16:00:13,105 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 16:00:32,320 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 16:00:32,322 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_16-00-32.json
+2025-05-21 17:16:21,219 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 17:16:21,221 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 17:16:34,949 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 17:16:34,949 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 17:16:46,976 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\DFI_FA184723.pdf
+2025-05-21 17:16:46,978 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_17-16-46.json
+2025-05-21 17:24:45,509 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn(1).pdf
+2025-05-21 17:24:45,510 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn(1).pdf
+2025-05-21 17:25:09,169 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:25:09,170 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:25:11,405 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:25:11,405 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:25:13,683 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:25:13,686 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_17-25-13.json
+2025-05-21 17:55:10,587 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:55:10,592 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:55:12,736 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:55:12,736 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:55:14,450 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 17:55:14,452 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_17-55-14.json
+2025-05-21 18:26:09,925 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 18:26:09,926 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 18:26:12,003 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 18:26:12,004 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 18:26:13,904 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 18:26:13,906 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_18-26-13.json
+2025-05-21 19:29:52,185 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 19:29:52,187 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 19:29:53,931 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 19:29:53,931 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 19:29:55,509 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 19:29:55,511 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_19-29-55.json
+2025-05-21 20:13:47,919 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82)
+2025-05-21 20:13:47,921 - ERROR - [FR06] File not found: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82)
+2025-05-21 20:14:09,184 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-21 20:14:09,185 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-21 20:14:13,049 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-21 20:14:13,049 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-21 20:14:15,073 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-21 20:14:15,075 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_20-14-15.json
+2025-05-21 20:20:30,727 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:20:30,728 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:20:32,464 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:20:32,465 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:20:34,014 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:20:34,015 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_20-20-34.json
+2025-05-21 20:34:06,258 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-21 20:34:06,259 - INFO - Processing Image: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-21 20:34:06,729 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-21 20:34:06,730 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.png
+2025-05-21 20:34:06,949 - ERROR - [FR06] Unexpected error in main: Unable to get page count.
+Syntax Warning: May not be a PDF file (continuing anyway)
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't read xref table
+
+2025-05-21 20:35:09,858 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-21 20:35:09,859 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-21 20:35:11,431 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-21 20:35:11,431 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-21 20:35:12,873 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\OCR Project\test_files\test\sample_invoice_test.pdf
+2025-05-21 20:35:12,875 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_20-35-12.json
+2025-05-21 20:52:01,973 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:52:01,975 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:52:03,873 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:52:03,873 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:52:05,506 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 20:52:05,507 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_20-52-05.json
+2025-05-21 21:07:50,305 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 21:07:50,306 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 21:07:52,412 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 21:07:52,413 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 21:07:54,364 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\fact abn (1).pdf
+2025-05-21 21:07:54,366 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-21_21-07-54.json
+2025-05-22 12:27:00,386 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-22 12:27:00,390 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-22 12:27:02,383 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-22 12:27:02,383 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-22 12:27:03,975 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Facture (82).pdf
+2025-05-22 12:27:03,977 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-22_12-27-03.json
+2025-05-22 14:19:58,301 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 14:19:58,305 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:20:04,092 - INFO - Detected document type: invoice
+2025-05-22 14:20:04,109 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:22:24,675 - INFO - File uploaded: AMH_FA050562.pdf
+2025-05-22 14:22:24,676 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:22:37,261 - INFO - Detected document type: invoice
+2025-05-22 14:22:37,265 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:26:03,221 - INFO - File uploaded: 251.pdf
+2025-05-22 14:26:03,225 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:26:07,072 - INFO - Detected document type: invoice
+2025-05-22 14:26:07,079 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:32:49,136 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 14:32:49,137 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:32:51,709 - INFO - Detected document type: invoice
+2025-05-22 14:32:51,715 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:42:04,302 - INFO - File uploaded: 251.pdf
+2025-05-22 14:42:04,309 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:42:07,113 - INFO - Detected document type: invoice
+2025-05-22 14:42:07,119 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:42:18,005 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 14:42:18,006 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:42:20,372 - INFO - Detected document type: invoice
+2025-05-22 14:42:20,375 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:43:23,168 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 14:43:23,169 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 14:43:25,572 - INFO - Detected document type: invoice
+2025-05-22 14:43:25,581 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 14:47:09,470 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 14:47:09,471 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 14:47:11,352 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 14:47:11,352 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 14:47:13,438 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 14:47:13,440 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-22_14-47-13.json
+2025-05-22 15:05:59,301 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 15:05:59,303 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 15:06:01,686 - INFO - Detected document type: invoice
+2025-05-22 15:06:01,693 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 15:06:35,563 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:06:35,563 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:06:37,433 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:06:37,434 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:06:39,316 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:06:39,319 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-22_15-06-39.json
+2025-05-22 15:07:30,636 - INFO - Received input file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:07:30,637 - INFO - Processing PDF: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:07:32,456 - INFO - Identified document type: invoice for file: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:07:32,456 - INFO - Starting invoice parsing for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:07:34,218 - INFO - Enhanced transactions extracted using layout-aware OCR for: C:\Users\Mudassir\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-22 15:07:34,220 - INFO - ✅ Invoice data saved to: output\invoice_output_2025-05-22_15-07-34.json
+2025-05-22 15:17:48,587 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 15:17:48,589 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 15:17:51,154 - INFO - Detected document type: invoice
+2025-05-22 15:17:51,161 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 17:35:58,155 - INFO - File uploaded: Document_2025-02-10_161115.pdf
+2025-05-22 17:35:58,175 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 17:36:07,937 - INFO - Detected document type: invoice
+2025-05-22 17:36:07,945 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 17:48:31,551 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 17:49:33,703 - INFO - File uploaded: Abnsoft.pdf
+2025-05-22 17:49:33,706 - INFO - Processing PDF: temp_upload.pdf
+2025-05-22 17:49:36,534 - INFO - Detected document type: invoice
+2025-05-22 17:49:36,541 - ERROR - [FR06] Unexpected error in process_ocr: Unable to get page count. Is poppler installed and in PATH?
+2025-05-22 17:50:04,072 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 17:50:12,384 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 17:58:00,697 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 17:58:09,363 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:01:50,538 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:01:50,541 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:01:50,542 - INFO - Main parsing completed.
+2025-05-22 18:03:52,407 - INFO - File received in UI: 842 - CIH 2023 09.pdf
+2025-05-22 18:03:52,413 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:03:52,415 - INFO - Main parsing completed.
+2025-05-22 18:04:09,292 - INFO - File received in UI: awb02.jpg
+2025-05-22 18:04:09,294 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:04:09,295 - INFO - Main parsing completed.
+2025-05-22 18:04:20,004 - INFO - File received in UI: awb 09 2023.pdf
+2025-05-22 18:04:20,014 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:04:20,017 - INFO - Main parsing completed.
+2025-05-22 18:13:48,626 - INFO - File received in UI: CIH.pdf
+2025-05-22 18:13:48,627 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:13:48,628 - INFO - Main parsing completed.
+2025-05-22 18:14:13,209 - INFO - File received in UI: CamScanner 09-02-2024 11.25.pdf
+2025-05-22 18:14:13,210 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:14:13,212 - INFO - Main parsing completed.
+2025-05-22 18:14:18,354 - INFO - File received in UI: CamScanner 09-02-2024 11.25.pdf
+2025-05-22 18:14:18,355 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:14:18,356 - INFO - Main parsing completed.
+2025-05-22 18:16:41,310 - INFO - File received in UI: CamScanner 09-02-2024 11.25.pdf
+2025-05-22 18:16:41,312 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:16:41,313 - INFO - Main parsing completed.
+2025-05-22 18:17:40,246 - INFO - File received in UI: CamScanner 09-02-2024 11.25.pdf
+2025-05-22 18:17:40,247 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:17:40,248 - INFO - Main parsing completed.
+2025-05-22 18:50:34,142 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:50:34,146 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:50:34,148 - INFO - Main parsing completed.
+2025-05-22 18:50:58,066 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:50:58,067 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:50:58,068 - INFO - Main parsing completed.
+2025-05-22 18:52:10,174 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:52:10,176 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:52:10,180 - INFO - Main parsing completed.
+2025-05-22 18:53:03,960 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:53:03,961 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:53:03,962 - INFO - Main parsing completed.
+2025-05-22 18:55:36,217 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:55:36,218 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:55:36,219 - INFO - Main parsing completed.
+2025-05-22 18:55:49,425 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:55:49,426 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:55:49,427 - INFO - Main parsing completed.
+2025-05-22 18:56:04,794 - INFO - File received in UI: Abnsoft.pdf
+2025-05-22 18:56:04,795 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-22 18:56:04,796 - INFO - Main parsing completed.
+2025-05-30 10:13:11,824 - INFO - File received in UI: 2025-02-10_162159.pdf
+2025-05-30 10:13:11,836 - ERROR - [FR06] Unexpected error in main: main() takes 0 positional arguments but 1 was given
+2025-05-30 10:13:11,841 - INFO - Main parsing completed.
+2025-05-30 12:33:18,458 - INFO - Received input file: C:\Users\Mr\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-30 12:33:18,461 - INFO - Processing PDF: C:\Users\Mr\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-30 12:33:18,590 - ERROR - [FR06] Unexpected error in main: Unable to get page count. Is poppler installed and in PATH?
+2025-05-30 12:34:12,244 - INFO - Received input file: C:\Users\Mr\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-30 12:34:12,245 - INFO - Processing PDF: C:\Users\Mr\OneDrive\Documents\Einnovation\Project-01-OCR Project\Documentation\OCR_Factures\Factures\Abnsoft.pdf
+2025-05-30 12:34:12,284 - ERROR - [FR06] Unexpected error in main: Unable to get page count. Is poppler installed and in PATH?
+2025-05-30 15:50:53,732 - ERROR - [FR06] Unexpected error in main: EOF when reading a line
+2025-06-01 09:40:36,880 - INFO - [UI] File received: Abnsoft.pdf
+2025-06-01 09:40:40,518 - INFO - [UI] Detected document type: invoice
+2025-06-01 09:40:40,519 - INFO - [UI] Running invoice parser
+2025-06-02 18:08:09,461 - INFO - [UI] File received: AWB.pdf
+2025-06-02 18:08:35,652 - INFO - [UI] Detected document type: invoice
+2025-06-02 18:08:35,655 - INFO - [UI] Running invoice parser
+2025-06-02 18:21:36,086 - INFO - [UI] File received: AWB.pdf
+2025-06-02 18:22:00,351 - INFO - [UI] Detected document type: invoice
+2025-06-02 18:22:00,354 - INFO - [UI] Running invoice parser
+2025-06-02 18:59:53,360 - INFO - [UI] File received: awb 09 2023.pdf
+2025-06-02 18:59:57,151 - INFO - [UI] Detected document type: bank_statement
+2025-06-02 18:59:57,154 - INFO - [UI] Running bank statement parser

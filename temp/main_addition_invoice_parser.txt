@@ -1,0 +1,16 @@
+
+from parser_invoice import parse_invoice
+
+# After document_type is detected
+if document_type == "invoice":
+    extracted_data = parse_invoice(text)
+    print("\n--- Parsed Invoice Fields ---")
+    for k, v in extracted_data.items():
+        if k != "transactions":
+            print(f"{k}: {v}")
+        else:
+            print("\nTransactions:")
+            for idx, tx in enumerate(v, 1):
+                print(f"  Item {idx}:")
+                for field, value in tx.items():
+                    print(f"    {field}: {value}")

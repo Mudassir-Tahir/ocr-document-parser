@@ -1,0 +1,27 @@
+
+from parser_bank import parse_bank_statement
+
+if document_type == "bank_statement":
+    extracted_data = parse_bank_statement(text)
+    print("\n--- Parsed Bank Statement Fields ---")
+    for k, v in extracted_data.items():
+        if k != "transactions":
+            print(f"{k}: {v}")
+        else:
+            print("\nTransactions:")
+            for idx, tx in enumerate(v, 1):
+                print(f"  Transaction {idx}:")
+                for field, value in tx.items():
+                    print(f"    {field}: {value}")
+
+    # Save to JSON
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
+
+    file_name = f"bank_statement_output_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
+    output_path = os.path.join(output_dir, file_name)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(extracted_data, f, indent=4, ensure_ascii=False)
+
+    print(f"\n✅ Bank statement data saved to: {output_path}")

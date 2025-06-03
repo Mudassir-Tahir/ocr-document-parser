@@ -1,0 +1,82 @@
+[
+    {
+        "label": "BL",
+        "quantity": "N°",
+        "unit_price": "219",
+        "item_total_ht": "DU",
+        "item_discount": "04/09/2024",
+        "tax_percentage": "N/A"
+    },
+    {
+        "label": "UNITE",
+        "quantity": "CENTRALE",
+        "unit_price": "4990.00",
+        "item_total_ht": "4990.00",
+        "item_discount": "N/A",
+        "tax_percentage": "N/A"
+    },
+    {
+        "label": "WORKSTATION",
+        "quantity": "Z440",
+        "unit_price": "INTEL",
+        "item_total_ht": "XEON",
+        "item_discount": "CPU",
+        "tax_percentage": "E5-1620"
+    },
+    {
+        "label": "16",
+        "quantity": "GB",
+        "unit_price": "ECC",
+        "item_total_ht": "RDDR4",
+        "item_discount": "/",
+        "tax_percentage": "2x256ssd"
+    },
+    {
+        "label": "KM3322W",
+        "quantity": "CLAVIER",
+        "unit_price": "ET",
+        "item_total_ht": "SOURIS",
+        "item_discount": "SANS",
+        "tax_percentage": "FIL"
+    },
+    {
+        "label": "Arrétée",
+        "quantity": "la",
+        "unit_price": "présente",
+        "item_total_ht": "facture",
+        "item_discount": "a",
+        "tax_percentage": "la"
+    },
+    {
+        "label": "SIX",
+        "quantity": "MILLE",
+        "unit_price": "TROIS",
+        "item_total_ht": "CENT",
+        "item_discount": "QUATRE",
+        "tax_percentage": "VINGT"
+    },
+    {
+        "label": "22",
+        "quantity": "RUE",
+        "unit_price": "MOUSOLE",
+        "item_total_ht": "Q",
+        "item_discount": "DES",
+        "tax_percentage": "HOPITAUX"
+    },
+    {
+        "label": "CASABLANCA",
+        "quantity": "Teél.:",
+        "unit_price": "0522244755",
+        "item_total_ht": "-",
+        "item_discount": "Fax:",
+        "tax_percentage": "0522244755"
+    },
+    {
+        "label": "LF.:",
+        "quantity": "1005545",
+        "unit_price": "Patente:",
+        "item_total_ht": "36330051",
+        "item_discount": "R.C.:",
+        "tax_percentage": "111949"
+    }
+]
